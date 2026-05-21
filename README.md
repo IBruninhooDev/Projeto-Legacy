@@ -4,7 +4,8 @@
  <a href="https://legacymta.netlify.app/">Clique Aqui para ir ao Site</a><br/>
 </p>
 
-<img width="1364" height="519" alt="Img-Legacy" src="https://github.com/user-attachments/assets/40dad784-3d76-4d8f-9475-ffd94c069cb5" />
+<img width="1365" height="597" alt="image" src="https://github.com/user-attachments/assets/863a3d7d-3533-4225-bc6f-bcea489dac25" />
+
 
 
 Website oficial do servidor **Legacy RP**, focado em proporcionar a melhor experiência de Roleplay no MTA (Multi Theft Auto). Este projeto serve como portal para a comunidade, oferecendo informações sobre o servidor, loja, galeria e links oficiais.
@@ -61,13 +62,12 @@ O projeto conta com diversas funcionalidades implementadas para garantir uma exc
 2. Abra o arquivo `index.html` em qualquer navegador moderno.
 
 ---
+- ## :link: Links
 
-- ## 🔗 Links
-
-- [GitHub](https://github.com/IBrunooDev)
+- [GitHub](https://github.com/IBruninhooDev)
 - [LinkedIn](https://www.linkedin.com/in/brunocarus/?originalSubdomain=br)
-- [Instagram](https://www.instagram.com/ibrunoodev/)
+- [Instagram](https://www.instagram.com/____brunoo77/)
 ---
 
-Desenvolvido com ❤️ por [Bruno Henrique](https://github.com/IBrunooDev) 
-© 2026 Legacy RP. Todos os direitos reservados.
+Desenvolvido com :heart: por [BrunoCarus](https://github.com/IBruninhooDev) 
+© 2026 IBruninhooDev. Todos os direitos reservados.
