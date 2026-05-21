@@ -1,4 +1,4 @@
-### <h1 align="center"> :computer: Web Site SkyPage Empresa :computer:</h1>
+### <h1 align="center"> :computer: Web Site Legacy MTA :computer:</h1>
 
 <p align="center">
  <a href="https://legacymta.netlify.app/">Clique Aqui para ir ao Site</a><br/>
