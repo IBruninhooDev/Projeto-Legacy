@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Legacy RP - MTA Roleplay</title>
+    <meta
+      name="description"
+      content="Legacy RP - Viva a melhor experiência de Roleplay no MTA."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="src/img/LEGACY_COMMUNITY.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="page-loader show" id="pageLoader" aria-live="polite" aria-label="Carregando pagina">
+      <div class="page-loader-content">
+        <span class="page-loader-spinner" aria-hidden="true"></span>
+        <p>Carregando...</p>
+      </div>
+    </div>
+    <header class="header" id="inicio">
+      <div class="container header-content">
+        <a href="index.html" class="logo brand-link" aria-label="Legacy RP Home">
+          <img
+            class="brand-logo"
+            src="src/img/LEGACY_COMMUNITY.png"
+            alt="Logo Legacy RP"
+          />
+          <span><span class="logo-glow">Legacy</span> RP</span>
+        </a>
+
+        <button
+          class="menu-toggle"
+          id="menuToggleBtn"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="mainMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <nav class="main-menu" id="mainMenu">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="loja.html">Loja</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="ip.html">IP do Servidor</a>
+          <a href="links.html">Social</a>
+        </nav>
+        <button
+          class="menu-backdrop"
+          id="menuBackdrop"
+          aria-hidden="true"
+          tabindex="-1"
+        ></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero-text reveal">
+          <img
+            class="hero-logo"
+            src="src/img/LOBO_BRANCO_FUNDO_PRETO.png"
+            alt="Mascote Legacy RP"
+          />
+          <p class="eyebrow">Servidor MTA Roleplay</p>
+          <h1>Bem-vindo ao Legacy RP</h1>
+          <p class="subtitle">
+            Viva a melhor experiência de Roleplay no MTA com sistemas
+            exclusivos, comunidade ativa e eventos inesquecíveis.
+          </p>
+          <a href="ip.html" class="btn btn-primary">Entrar no Servidor</a>
+        </div>
+        <div class="hero-overlay"></div>
+      </section>
+
+      <section class="section" id="sobre">
+        <div class="container about-content">
+          <div class="about-text reveal">
+            <p class="eyebrow">Sobre o Servidor</p>
+            <h2>Roleplay sério, dinâmico e divertido</h2>
+            <p>
+              O Legacy RP foi criado para entregar uma experiência de roleplay
+              imersiva no MTA, com economia balanceada, facções ativas e
+              administração presente para manter o ambiente justo e envolvente
+              para todos.
+            </p>
+            <div class="about-highlights">
+              <article class="feature-card">
+                <h3>Sistema de Roleplay</h3>
+                <p>
+                  Mecânicas realistas com jobs, organizações e progressão
+                  constante.
+                </p>
+              </article>
+              <article class="feature-card">
+                <h3>Comunidade Ativa</h3>
+                <p>
+                  Jogadores engajados todos os dias, com suporte rápido e staff
+                  dedicada.
+                </p>
+              </article>
+              <article class="feature-card">
+                <h3>Eventos e Atualizações</h3>
+                <p>
+                  Eventos semanais e atualizações frequentes com novos
+                  conteúdos.
+                </p>
+              </article>
+            </div>
+          </div>
+          <div class="about-visual reveal" aria-hidden="true">
+            <div class="glow-orb orb-1"></div>
+            <div class="glow-orb orb-2"></div>
+            <div class="panel">
+              <p>+150</p>
+              <span>Jogadores online em horários de pico</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="loja">
+        <div class="container reveal">
+          <p class="eyebrow">Loja Oficial</p>
+          <h2>Melhore sua jornada no Legacy RP</h2>
+          <div class="shop-grid">
+            <article class="store-card">
+              <h3>VIP Platinum</h3>
+              <p>
+                Acesso a benefícios premium, fila prioritária e bônus
+                exclusivos.
+              </p>
+              <strong>R$ 49,90</strong>
+              <button class="btn btn-secondary" type="button">Comprar</button>
+            </article>
+            <article class="store-card">
+              <h3>Pack de Itens</h3>
+              <p>
+                Kit com itens essenciais para acelerar seu início no servidor.
+              </p>
+              <strong>R$ 24,90</strong>
+              <button class="btn btn-secondary" type="button">Comprar</button>
+            </article>
+            <article class="store-card">
+              <h3>Vantagens RP</h3>
+              <p>
+                Desbloqueie funções extras e recursos especiais no roleplay.
+              </p>
+              <strong>R$ 34,90</strong>
+              <button class="btn btn-secondary" type="button">Comprar</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="ip">
+        <div class="container reveal">
+          <div class="server-ip-box">
+            <p class="eyebrow">IP do Servidor</p>
+            <h2>Conecte-se agora</h2>
+            <p class="ip-value" id="serverIp">mtasa://151.242.227.17:22003</p>
+            <button class="btn btn-primary" id="copyIpBtn" type="button">
+              Copiar IP
+            </button>
+            <small id="copyFeedback" aria-live="polite"></small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="galeria">
+        <div class="container reveal">
+          <p class="eyebrow">Galeria do Servidor</p>
+          <h2>Momentos do Legacy RP</h2>
+          <p class="subtitle gallery-subtitle">
+            Confira alguns registros de eventos, operações e cenas marcantes da
+            nossa comunidade.
+          </p>
+
+          <div class="gallery-list">
+            <article class="gallery-card">
+              <img
+                src="src/img/IMG-1.png"
+                alt="Cena urbana do servidor Legacy RP"
+              />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-2.png" alt="Viaturas em patrulha no Legacy RP" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-3.png" alt="Encontro de jogadores na cidade" />
+            </article>
+            <article class="gallery-card">
+              <img
+                src="src/img/IMG-4.png"
+                alt="Operacao especial no Legacy RP"
+              />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-5.png" alt="Cena noturna com personagens em RP" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-6.png" alt="Evento da comunidade em andamento" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-7.png" alt="Roleplay civil no centro da cidade" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-8.png" alt="Registro de acao policial no servidor" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-9.png" alt="Momento de roleplay entre faccoes" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-10.png" alt="Ambiente urbano com clima cinematografico" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-11.png" alt="Interacao da comunidade em evento oficial" />
+            </article>
+            <article class="gallery-card">
+              <img src="src/img/IMG-12.png" alt="Paisagem do servidor Legacy RP" />
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <a href="index.html" class="logo brand-link">
+            <img
+              class="brand-logo brand-logo-footer"
+              src="src/img/LEGACY_COMMUNITY.png"
+              alt="Logo Legacy RP"
+            />
+            <span><span class="logo-glow">Legacy</span> RP</span>
+          </a>
+          <p class="copyright">
+            © 2026 Legacy RP. Todos os direitos reservados.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="loja.html">Loja</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="ip.html">IP do Servidor</a>
+          <a href="links.html">Social</a>
+        </div>
+        <div class="social-links">
+          <a
+            class="social-link"
+            href="https://discord.gg/rplegacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Discord"
+          >
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M19.4 5.4A16.3 16.3 0 0 0 15.4 4a11 11 0 0 0-.5 1.1 15.2 15.2 0 0 0-5.8 0A11 11 0 0 0 8.6 4c-1.4.2-2.8.7-4 1.4C2.1 9.1 1.5 12.6 1.8 16a16.6 16.6 0 0 0 4.9 2.5c.4-.5.8-1 1.1-1.6-.6-.2-1.2-.5-1.8-.8l.4-.3a11.4 11.4 0 0 0 11.2 0l.4.3c-.6.3-1.2.6-1.8.8.3.6.7 1.1 1.1 1.6a16.6 16.6 0 0 0 4.9-2.5c.4-4-.7-7.5-2.8-10.6ZM9.5 14.1c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Zm5 0c-.9 0-1.6-.8-1.6-1.8s.7-1.8 1.6-1.8 1.6.8 1.6 1.8-.7 1.8-1.6 1.8Z"
+              ></path>
+            </svg>
+            Discord
+          </a>
+          <a
+            class="social-link"
+            href="https://www.instagram.com/rplegacy_/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Instagram"
+          >
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M7.8 2h8.4A5.8 5.8 0 0 1 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8A5.8 5.8 0 0 1 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2Zm8.2 1.9H8A4.1 4.1 0 0 0 3.9 8v8a4.1 4.1 0 0 0 4.1 4.1h8a4.1 4.1 0 0 0 4.1-4.1V8A4.1 4.1 0 0 0 16 3.9Zm-4 2.6a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11Zm0 1.9a3.6 3.6 0 1 0 0 7.2 3.6 3.6 0 0 0 0-7.2Zm5.7-.9a1.3 1.3 0 1 1 0 2.5 1.3 1.3 0 0 1 0-2.5Z"
+              ></path>
+            </svg>
+            Instagram
+          </a>
+          <a
+            class="social-link"
+            href="https://www.youtube.com/@rplegacyoficial"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="YouTube"
+          >
+            <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M22 12c0 2.2-.3 3.7-.5 4.4a3.5 3.5 0 0 1-2.5 2.5c-.7.2-2.2.5-7 .5s-6.3-.3-7-.5a3.5 3.5 0 0 1-2.5-2.5C2.3 15.7 2 14.2 2 12s.3-3.7.5-4.4A3.5 3.5 0 0 1 5 5.1c.7-.2 2.2-.5 7-.5s6.3.3 7 .5a3.5 3.5 0 0 1 2.5 2.5c.2.7.5 2.2.5 4.4Zm-12.2 3.8 6-3.8-6-3.8v7.6Z"
+              ></path>
+            </svg>
+            YouTube
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

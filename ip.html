@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP do Servidor - Legacy RP</title>
+    <meta
+      name="description"
+      content="Conecte-se agora ao Legacy RP e copie o IP do servidor."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="src/img/LEGACY_COMMUNITY.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div
+      class="page-loader show"
+      id="pageLoader"
+      aria-live="polite"
+      aria-label="Carregando pagina"
+    >
+      <div class="page-loader-content">
+        <span class="page-loader-spinner" aria-hidden="true"></span>
+        <p>Carregando...</p>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container header-content">
+        <a
+          href="index.html"
+          class="logo brand-link"
+          aria-label="Legacy RP Home"
+        >
+          <img
+            class="brand-logo"
+            src="src/img/LEGACY_COMMUNITY.png"
+            alt="Logo Legacy RP"
+          />
+          <span><span class="logo-glow">Legacy</span> RP</span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggleBtn"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="mainMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-menu" id="mainMenu">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="loja.html">Loja</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="ip.html">IP do Servidor</a>
+          <a href="links.html">Social</a>
+        </nav>
+        <button
+          class="menu-backdrop"
+          id="menuBackdrop"
+          aria-hidden="true"
+          tabindex="-1"
+        ></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="ip">
+        <div class="container reveal">
+          <div class="server-ip-box">
+            <p class="eyebrow">IP do Servidor</p>
+            <h2>Conecte-se agora</h2>
+            <p class="ip-value" id="serverIp">mtasa://151.242.227.17:22003</p>
+            <button class="btn btn-primary" id="copyIpBtn" type="button">
+              Copiar IP
+            </button>
+            <small id="copyFeedback" aria-live="polite"></small>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <a href="index.html" class="logo brand-link">
+            <img
+              class="brand-logo brand-logo-footer"
+              src="src/img/LEGACY_COMMUNITY.png"
+              alt="Logo Legacy RP"
+            />
+            <span><span class="logo-glow">Legacy</span> RP</span>
+          </a>
+          <p class="copyright">
+            © 2026 Legacy RP. Todos os direitos reservados.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="loja.html">Loja</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="ip.html">IP do Servidor</a>
+          <a href="links.html">Social</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>

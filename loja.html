@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja - Legacy RP</title>
+    <meta
+      name="description"
+      content="Conheça os produtos da loja oficial do Legacy RP."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="src/img/LEGACY_COMMUNITY.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div
+      class="page-loader show"
+      id="pageLoader"
+      aria-live="polite"
+      aria-label="Carregando pagina"
+    >
+      <div class="page-loader-content">
+        <span class="page-loader-spinner" aria-hidden="true"></span>
+        <p>Carregando...</p>
+      </div>
+    </div>
+    <header class="header">
+      <div class="container header-content">
+        <a
+          href="index.html"
+          class="logo brand-link"
+          aria-label="Legacy RP Home"
+        >
+          <img
+            class="brand-logo"
+            src="src/img/LEGACY_COMMUNITY.png"
+            alt="Logo Legacy RP"
+          />
+          <span><span class="logo-glow">Legacy</span> RP</span>
+        </a>
+        <button
+          class="menu-toggle"
+          id="menuToggleBtn"
+          aria-label="Abrir menu"
+          aria-expanded="false"
+          aria-controls="mainMenu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="main-menu" id="mainMenu">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="loja.html">Loja</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="ip.html">IP do Servidor</a>
+          <a href="links.html">Social</a>
+        </nav>
+        <button
+          class="menu-backdrop"
+          id="menuBackdrop"
+          aria-hidden="true"
+          tabindex="-1"
+        ></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="loja">
+        <div class="container reveal">
+          <p class="eyebrow">Loja Oficial</p>
+          <h2>Melhore sua jornada no Legacy RP</h2>
+          <div class="shop-grid">
+            <article class="store-card">
+              <h3>VIP Platinum</h3>
+              <p>
+                Acesso a benefícios premium, fila prioritária e bônus
+                exclusivos.
+              </p>
+              <strong>R$ 49,90</strong>
+              <button class="btn btn-secondary" type="button">Comprar</button>
+            </article>
+            <article class="store-card">
+              <h3>Pack de Itens</h3>
+              <p>
+                Kit com itens essenciais para acelerar seu início no servidor.
+              </p>
+              <strong>R$ 24,90</strong>
+              <button class="btn btn-secondary" type="button">Comprar</button>
+            </article>
+            <article class="store-card">
+              <h3>Vantagens RP</h3>
+              <p>
+                Desbloqueie funções extras e recursos especiais no roleplay.
+              </p>
+              <strong>R$ 34,90</strong>
+              <button class="btn btn-secondary" type="button">Comprar</button>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <div>
+          <a href="index.html" class="logo brand-link">
+            <img
+              class="brand-logo brand-logo-footer"
+              src="src/img/LEGACY_COMMUNITY.png"
+              alt="Logo Legacy RP"
+            />
+            <span><span class="logo-glow">Legacy</span> RP</span>
+          </a>
+          <p class="copyright">
+            © 2026 Legacy RP. Todos os direitos reservados.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="sobre.html">Sobre</a>
+          <a href="loja.html">Loja</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="ip.html">IP do Servidor</a>
+          <a href="links.html">Social</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
